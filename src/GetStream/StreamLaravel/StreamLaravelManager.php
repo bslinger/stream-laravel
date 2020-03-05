@@ -16,12 +16,12 @@ class StreamLaravelManager
     /**
      * @var mixed
      */
-    private $config;
+    protected $config;
 
     /**
      * @var string
      */
-    private $userFeed;
+    protected $userFeed;
 
     /**
      * @param string $api_key
